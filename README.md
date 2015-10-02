@@ -17,3 +17,7 @@ If one wishes to develop this repo, building will need to be performed manually.
 # Testing
 
 The container used by this container as a base, `nanshe/nanshe`, is tested independently along with its contents. As this image is merely a placeholder for `nanshe/nanshe` and does nothing but use that image, no further testing is performed.
+
+# Usage
+
+Once an image is acquired either from one of the provided builds or manually, the image is designed to provide a preconfigured shell environment. Simply run `docker run -it <NAME>`. This will configure Grid Engine and a number of environment variables useful for maintaining it and starts up `bash`. At that point, any `nanshe` command can be run. In the case of an automated build, `<NAME>` is `jakirkham/nanshe`.

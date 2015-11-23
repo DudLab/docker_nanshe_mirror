@@ -2,13 +2,13 @@
 
 # Purpose
 
-Allows for a lightweight mirroring of the `nanshe` container ( <https://registry.hub.docker.com/u/nanshe/nanshe> ). Thus, codebases pulling from the original `jakirkham/nanshe` image will still pull the same common layers.
+Allows for a lightweight mirroring of the `nanshe` container ( <https://hub.docker.com/r/nanshe/nanshe> ). Thus, codebases pulling from the original `jakirkham/nanshe` image will still pull the same common layers.
 
 # Building
 
 ## Automatic
 
-This repo is part of an automated build, which is hosted on Docker Hub ( <https://registry.hub.docker.com/u/jakirkham/nanshe> ). Changes added to this trigger an automatic rebuild and deploy the resulting image to Docker Hub. To download an existing image, one simply needs to run `docker pull jakirkham/nanshe`.
+This repo is part of an automated build, which is hosted on Docker Hub ( <https://hub.docker.com/r/jakirkham/nanshe> ). Changes added to this trigger an automatic rebuild and deploy the resulting image to Docker Hub. To download an existing image, one simply needs to run `docker pull jakirkham/nanshe`.
 
 ## Manual
 
